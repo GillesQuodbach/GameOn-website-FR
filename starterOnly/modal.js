@@ -11,14 +11,15 @@ function editNav() {
 const modalbg = document.querySelector(".bground");
 const modalBtn = document.querySelectorAll(".modal-btn");
 const formData = document.querySelectorAll(".formData");
-
 const xButton = document.querySelector(".close"); // Bouton croix
-const subButton = document.querySelector(".btn-submit"); // Bouton submit
+
+
 let firstName = document.getElementById("firstName"); // Prénom
 let lastName = document.getElementById("lastName"); // Nom
 let email = document.getElementById("email"); //Email
 let birthdate = document.getElementById("birthdate"); //Date de naissance
-
+let myForm = document.getElementById("reserve");
+let regExp = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
 // launch modal event
 modalBtn.forEach((btn) => btn.addEventListener("click", launchModal));
 
@@ -36,17 +37,29 @@ function closeModal() {
 }
 
 
-subButton.disabled = true;
 
-firstName.addEventListener("change", test);
 
-function test(){
-  if (firstName.value === "") {
-    subButton.disabled = true;
-  } else {
-    subButton.disabled = false;
+
+function validate(){
+  if ((firstName.value === '') || (firstName.value.length <=2)) {
+    alert(`Votre prénom n'est pas conforme !`)
+    return false;
   }
+  if ((lastName.value === '') || (lastName.value.length <=2)) {
+    alert(`Votre nom n'est pas conforme !`)
+    return false;
+  }
+
 }
+
+
+
+
+
+
+
+
+
 
 
 
