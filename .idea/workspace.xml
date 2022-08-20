@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starterOnly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starterOnly/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starterOnly/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/starterOnly/modal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +42,17 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="GameOnDebug" type="JavascriptDebugType" engineId="1eb3fb18-3e8a-44ac-966f-e796bb60617e" uri="http://localhost:5500/Projet_4/starterOnly/index.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.JS">
+    <configuration name="JS" type="JavascriptDebugType" uri="http://localhost:51550/Projet_4/starterOnly/index.html">
       <method v="2" />
     </configuration>
+    <configuration name="JSDebug" type="JavascriptDebugType" uri="http://localhost:5500/Projet_4/starterOnly/index.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.JS" />
+      <item itemvalue="JavaScript Debug.JSDebug" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +65,11 @@
       <workItem from="1660658463519" duration="1555000" />
       <workItem from="1660660034280" duration="3785000" />
       <workItem from="1660720117037" duration="3460000" />
-      <workItem from="1660731543652" duration="7901000" />
+      <workItem from="1660731543652" duration="11577000" />
+      <workItem from="1660923427526" duration="7384000" />
+      <workItem from="1660985957758" duration="16263000" />
+      <workItem from="1661010760705" duration="43000" />
+      <workItem from="1661011063919" duration="782000" />
     </task>
     <servers />
   </component>
