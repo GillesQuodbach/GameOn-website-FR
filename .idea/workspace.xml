@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="Validation formulaire ok" />
+    <list default="true" id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="Validation formulaire ok">
+      <change beforePath="$PROJECT_DIR$/starterOnly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starterOnly/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +74,7 @@
       <workItem from="1661179854488" duration="1193000" />
       <workItem from="1661181058777" duration="21000" />
       <workItem from="1661181107257" duration="232000" />
+      <workItem from="1661181831502" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Validation formulaire ok">
       <created>1661181192015</created>
