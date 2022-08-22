@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starterOnly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starterOnly/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starterOnly/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/starterOnly/modal.js" afterDir="false" />
-    </list>
+    <list default="true" id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="Validation formulaire ok" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,26 +29,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/quodb/OneDrive/Documents/OpenClassrooms/Projets/Projet_4/starterOnly/index.html&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/quodb/OneDrive/Documents/OpenClassrooms/Projets/Projet4WebStorm/starterOnly/index.html&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JavaScript Debug.JS">
-    <configuration name="JS" type="JavascriptDebugType" uri="http://localhost:51550/Projet_4/starterOnly/index.html">
+  <component name="RunManager">
+    <configuration name="GameOn" type="JavascriptDebugType" uri="http://localhost:63342/Projet4WebStorm/starterOnly/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="JSDebug" type="JavascriptDebugType" uri="http://localhost:5500/Projet_4/starterOnly/index.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.JS" />
-      <item itemvalue="JavaScript Debug.JSDebug" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +61,26 @@
       <workItem from="1660985957758" duration="16263000" />
       <workItem from="1661010760705" duration="43000" />
       <workItem from="1661011063919" duration="782000" />
+      <workItem from="1661017904484" duration="1685000" />
+      <workItem from="1661081773126" duration="5730000" />
+      <workItem from="1661090104635" duration="5701000" />
+      <workItem from="1661096823832" duration="1259000" />
+      <workItem from="1661153311305" duration="5961000" />
+      <workItem from="1661160000658" duration="11296000" />
+      <workItem from="1661177681245" duration="1917000" />
+      <workItem from="1661179622703" duration="222000" />
+      <workItem from="1661179854488" duration="1193000" />
+      <workItem from="1661181058777" duration="21000" />
+      <workItem from="1661181107257" duration="232000" />
     </task>
+    <task id="LOCAL-00001" summary="Validation formulaire ok">
+      <created>1661181192015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661181192015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +96,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Validation formulaire ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validation formulaire ok" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/starterOnly/modal.js</url>
+          <line>53</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
