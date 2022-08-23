@@ -80,6 +80,7 @@ function validate() {
     return false;
   }
   //Validation Radio Button
+  //Boucle vérifier
   let valid = false;
 for(let i = 0; i < radioButton.length; i++) {
   if (radioButton[i].checked){
