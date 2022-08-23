@@ -99,6 +99,7 @@ if(valid) {
     checkboxError.innerHTML = "Veuillez lire et valider les conditions."
     return false;
   }
+  alert('Merci ! Votre réservation a bien été envoyée.')
   return true;
 }
 
