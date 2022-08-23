@@ -54,29 +54,29 @@ function closeModal() {
 function validate() {
   // Validation Prenom
   if (firstName.value == "") {
-    firstNameError.innerHTML = "Entrez votre prenom";
+    firstNameError.innerHTML = "Votre prénom doit contenir 2 caractères ou plus.";
     return false;
   }
   // Validation Nom
   if (lastName.value == "") {
-    lastNameError.innerHTML = "Entrez votre nom";
+    lastNameError.innerHTML = "Votre nom doit contenir 2 caractères ou plus.";
     return false;
   }
   //Validation Mail
   let testEmail = emailRegExp.test(email.value);
   if (testEmail === false) {
-    emailError.innerHTML = "Adresse invalide";
+    emailError.innerHTML = "Veuillez saisir une adresse email valide.";
     return false;
   }
   //Validation Date de naissance
   let testDate = dateRegExp.test(birthdate.value);
   if (testDate === false) {
-    birthdateError.innerHTML = "Entrez une date valide";
+    birthdateError.innerHTML = "Veuillez entrer votre date de naissance.";
     return false;
   }
   //Validation nombre de tournois
   if (nbrTournaments.value === "") {
-    tournamentError.innerHTML = "Entrez un nombre";
+    tournamentError.innerHTML = "Veuillez entrer un nombre";
     return false;
   }
   //Validation Radio Button
@@ -91,12 +91,12 @@ for(let i = 0; i < radioButton.length; i++) {
 if(valid) {
   radioError.innerHTML = ""
 } else {
-  radioError.innerHTML = "Cocher une case";
+  radioError.innerHTML = "Veuillez choisir une option";
   return false;
 }
 //Validation Checkbox
   if (checkbox.checked === false) {
-    checkboxError.innerHTML = "Valider les conditions"
+    checkboxError.innerHTML = "Veuillez lire et valider les conditions."
     return false;
   }
   return true;

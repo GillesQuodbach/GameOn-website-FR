@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="Validation formulaire ok">
+    <list default="true" id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="issue #2 validée">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starterOnly/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/starterOnly/modal.js" afterDir="false" />
     </list>
@@ -33,13 +33,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "deletionFromPopupRequiresConfirmation": "false",
-    "last_opened_file_path": "C:/Users/quodb/OneDrive/Documents/OpenClassrooms/Projets/Projet4_WS/starterOnly/index.html",
+    "last_opened_file_path": "C:/Users/quodb/OneDrive/Documents/DicoFR_Webstorm/fr-with-unaccentued-words.dic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -48,7 +48,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Users\quodb\OneDrive\Documents\DicoFR_Webstorm" CustomDictionaries="1" CustomDictionary0="C:\Users\quodb\OneDrive\Documents\DicoFR_Webstorm\fr-with-unaccentued-words.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="" />
@@ -76,7 +76,7 @@
       <workItem from="1661181058777" duration="21000" />
       <workItem from="1661181107257" duration="232000" />
       <workItem from="1661181831502" duration="1318000" />
-      <workItem from="1661238717921" duration="523000" />
+      <workItem from="1661238717921" duration="1175000" />
     </task>
     <task id="LOCAL-00001" summary="Validation formulaire ok">
       <created>1661181192015</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661181943849</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="issue #2 validée">
+      <created>1661239268399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661239268399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +125,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Validation formulaire ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validation formulaire ok" />
+    <MESSAGE value="issue #2 validée" />
+    <option name="LAST_COMMIT_MESSAGE" value="issue #2 validée" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
