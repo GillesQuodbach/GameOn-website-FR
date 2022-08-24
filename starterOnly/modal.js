@@ -59,7 +59,7 @@ function validate() {
   }
   // Validation Nom
   if (lastName.value == "") {
-    lastNameError.innerHTML = "Votre nom doit contenir 2 caractères ou plus.";
+    lastNameError.innerHTML = "Votre nom doit contenir 2 caractères ou plus!";
     return false;
   }
   //Validation Mail
