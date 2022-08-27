@@ -12,6 +12,8 @@
     />
   </head>
   <body>
+  <!--      MODAL CONFIRMATION ENVOI-->
+
     <div class="topnav" id="myTopnav">
       <div class="header-logo">
       <img alt="logo" src="Logo.png" width="auto" height="auto" />
@@ -19,7 +21,7 @@
     <div class="main-navbar">
       
       <a href="#" class="active"><span>Accueil</span></a>
-      <a href="#"><span>Détails de l'évènement</span></a>
+      <a href="#"><span id="detail">Détails de l'évènement</span></a>
       <a href="#"><span>À propos</span></a>
       <a href="#"><span>Contact</span></a>
       <a href="#"><span>Évènements passés</span></a>
@@ -206,9 +208,8 @@
                 <br>
               </div>
               <input
-                class="btn-submit"
+                id="btn-submit"
                 type="submit"
-                class="button"
                 value="C'est parti"
               />
             </form>
@@ -216,21 +217,22 @@
         </div>
       </div>
 <!--      FIN MODAL-->
-<!--      MODAL CONFIRMATION ENVOI-->
-      <div class="thanks-modal-container">
-        <div class="overlay modal-triggers"></div>
-          <div class="thanks-modal-content">
-            <p class="thanks-modal-text">Merci, votre réservation a bien été prise en compte</p>
-            <button class="thanks-modal-close-btn modal-trigger">OK</button>
-          </div>
-      </div>
-<!--    FIN MODAL CONFIRMATION ENVOI-->
     </main>
     <footer>
       <p class="copyrights">
         Copyright 2014 - 2022, GameOn Inc.
       </p>
     </footer>
+  <!--    DEBUT MODAL CONFIRMATION ENVOI-->
+  <div class="thanks-modal-container">
+    <div class="overlay modal-triggers"></div>
+    <div class="thanks-modal-content">
+      <p class="thanks-modal-text">Merci, votre réservation a bien été prise en compte</p>
+      <button type="submit" class="thanks-modal-close-btn">OK</button>
+    </div>
+  </div>
     <script src="modal.js"></script>
+
+    <!--    FIN MODAL CONFIRMATION ENVOI-->
   </body>
 </html>
