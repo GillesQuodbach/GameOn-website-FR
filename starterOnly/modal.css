@@ -532,18 +532,15 @@ footer {
   font-size: 14px;
 }
 
-.thanks-modal-container{
-  /*display:block;*/
+#thanks-modal-container{
   display:none;
-  z-index: 10;
+  z-index: 3330;
   position: fixed;
   top: 0;
   width:100vw;
   height:100vh;
 }
-.thanks-modal-container.active {
-  display:block;
-}
+
 .overlay{
   position: absolute;
   width: 100%;

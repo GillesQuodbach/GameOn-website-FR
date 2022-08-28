@@ -8,36 +8,33 @@ function editNav() {
 }
 
 // DOM Elements
+const myForm = document.querySelector("#reserve");
+const formData = document.querySelectorAll(".formData");
 const modalbg = document.querySelector(".bground");
 const modalBtn = document.querySelectorAll(".modal-btn");
-const formData = document.querySelectorAll(".formData");
-
-//VARIABLES
 const xButton = document.querySelector(".close"); // Bouton croix
-const myForm = document.querySelector("#reserve");
-let firstName = document.querySelector("#firstName"); // Prénom
-let lastName = document.querySelector("#lastName"); // Nom
-let email = document.querySelector("#email"); //Email
-let birthdate = document.querySelector("#birthdate"); //Date de naissance
-let nbrTournaments = document.querySelector("#quantity"); //Nbr tournois
+const firstName = document.querySelector("#firstName"); // Prénom
+const lastName = document.querySelector("#lastName"); // Nom
+const email = document.querySelector("#email"); //Email
+const birthdate = document.querySelector("#birthdate"); //Date de naissance
+const nbrTournaments = document.querySelector("#quantity"); //Nbr tournois
+const radioButton = document.forms[0].location;//Radio button
+const checkbox = document.querySelector("#checkbox1");
 
-
-
-//Formulaire complet
-let emailError = document.querySelector(".mail-error"); //Erreur email
-let firstNameError = document.querySelector('.firstname-error'); //Erreur prénom
-let lastNameError = document.querySelector('.lastname-error'); //Erreur nom
-let tournamentError = document.querySelector('.tournament-error'); //Erreur nbr tournois
-let radioError = document.querySelector(".radio-button-error");//Erreur checkbox
-let radioButton = document.forms[0].location;//Radio button
-let birthdateError = document.querySelector(".birthdate-error");
-let checkboxError = document.querySelector(".checkbox-error");
-let checkbox = document.querySelector("#checkbox1");
+//Message d'erreur inputs
+const emailError = document.querySelector(".mail-error"); //Erreur email
+const firstNameError = document.querySelector('.firstname-error'); //Erreur prénom
+const lastNameError = document.querySelector('.lastname-error'); //Erreur nom
+const tournamentError = document.querySelector('.tournament-error'); //Erreur nbr tournois
+const radioError = document.querySelector(".radio-button-error");//Erreur checkbox
+const birthdateError = document.querySelector(".birthdate-error");
+const checkboxError = document.querySelector(".checkbox-error");
 
 //REGEXP
-let emailRegExp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-let dateRegExp =/^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/
-//MODAL
+const emailRegExp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+const dateRegExp =/^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/
+
+//FORMULAIRE D'INSCRIPTION
 // launch modal event
 modalBtn.forEach((btn) => btn.addEventListener("click", launchModal));
 // launch modal form
@@ -50,58 +47,26 @@ xButton.addEventListener("click", closeModal);
 function closeModal() {
   modalbg.style.display = "none";
 }
-//===================================================================================
-// FORMULAIRE ENTIER
-
-
-
-
-//ThanksMODAL container
-const thanksModalContainer = document.querySelector(".thanks-modal-container");
-//BOUTON OK
-const closeThanksModalBtn = document.querySelector(".thanks-modal-close-btn");
-//CLOSE ThanksMODAL CONST
-//Modal close button
-closeThanksModalBtn.addEventListener("click", closeThanksModal);
-// close thanks-modal FUNCTION
-function closeThanksModal() {
-  thanksModalContainer.style.display = "none";
+const thxModal = document.querySelector("#thanks-modal-container");
+function launchThxModal() {
+  thxModal.style.display = "block";
 }
-// APPARITION MODAL MERCI
-// function launchThanksModale (){
-//   if (validate===true) {
-//   thanksModalContainer.style.display = "block";
-//   }
-// }
 
-//======================================================================================
+const closeButton = document.querySelector(".thanks-modal-close-btn");
+closeButton.addEventListener("click", closeThxModal);
+function closeThxModal() {
+  thxModal.style.display = "none";
+}
+
+myForm.addEventListener("submit", function(e){
+  e.preventDefault();
+  if (validate(myForm) === true) {
+    launchThxModal();
+    setTimeout(() => {myForm.submit()}, 1500);}
+  }
+);
+
 //VALIDATION FORMULAIRE
-
-// RAJOUTER ICI LE TEXT DE L4AUTRE ECRAN
-let putain = document.getElementById("detail");
-putain.addEventListener("click",launchThanksModale);
-
-function launchThanksModale (){
-    thanksModalContainer.style.display = "block";
-}
-
-// ESSAI 1========================================
-//   myForm.addEventListener('submit', function (e) {
-//     e.preventDefault();
-//     alert('Please enter your');
-//   });
-// ESSAI 2========================================
-// let detail = document.getElementById("detail");
-// detail.addEventListener("click", (e) => {
-//   e.preventDefault()
-//   alert("Please select your");
-// });
-// let bouton = document.getElementsByClassName("bouton");
-// bouton.addEventListener("click", () => {
-//   launchThanksModale();
-// });
-
-
 function validate() {
   // Validation Prenom
   if (firstName.value === "") {
@@ -153,9 +118,10 @@ if(valid) {
 if ((!valid||!testDate||!testEmail||!checkbox.checked)||(lastName.value === "")||(firstName.value === "")||(nbrTournaments.value === "")) {
   return false;
 }
-return true;
 
+return true;
 }
+
 
 
 
