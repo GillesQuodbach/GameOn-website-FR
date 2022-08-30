@@ -52,17 +52,11 @@ function launchThxModal() {
   thxModal.style.display = "block";
 }
 
-const closeButton = document.querySelector(".thanks-modal-close-btn");
-closeButton.addEventListener("click", closeThxModal);
-function closeThxModal() {
-  thxModal.style.display = "none";
-}
-
 myForm.addEventListener("submit", function(e){
   e.preventDefault();
   if (validate(myForm) === true) {
     launchThxModal();
-    setTimeout(() => {myForm.submit()}, 1500);}
+    setTimeout(() => {myForm.submit()}, 2000);}
   }
 );
 

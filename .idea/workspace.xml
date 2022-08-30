@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="Reste soucis Modal + css">
+    <list default="true" id="d92ec1fd-55da-4069-bf38-e1fc2e1ea843" name="Changes" comment="Modal OK !!!! Reste CSS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starterOnly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starterOnly/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starterOnly/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/starterOnly/modal.css" afterDir="false" />
@@ -95,7 +95,8 @@
       <workItem from="1661689153511" duration="655000" />
       <workItem from="1661689899317" duration="2797000" />
       <workItem from="1661692733671" duration="1362000" />
-      <workItem from="1661694984422" duration="7188000" />
+      <workItem from="1661694984422" duration="9209000" />
+      <workItem from="1661784188952" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="Validation formulaire ok">
       <created>1661181192015</created>
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661626139914</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Modal OK !!!! Reste CSS">
+      <created>1661702509974</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661702509974</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +192,7 @@
     <MESSAGE value="issue #4 validée" />
     <MESSAGE value="Modal s'ouvre et se ferme instant" />
     <MESSAGE value="Reste soucis Modal + css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reste soucis Modal + css" />
+    <MESSAGE value="Modal OK !!!! Reste CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modal OK !!!! Reste CSS" />
   </component>
 </project>
