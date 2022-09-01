@@ -572,14 +572,16 @@ footer {
     top: -2px;
     margin-left: 10px;
   }
+  .next-event{
+    left: -5px;
+  }
   .checkboxData{
-    width: 258px;
+    width: 260px;
     height: 50px;
     margin-bottom: 5px;
   }
   .checkbox2-label{
     margin-left: 20px;
-
     font-size: 0.55rem;
     text-align: start;
   }
@@ -684,6 +686,9 @@ footer {
     left: -30px;
     top: -2px;
     margin-left: 10px;
+  }
+  .next-event{
+    left: -5px;
   }
   .checkboxData{
     width: 300px;
@@ -804,6 +809,9 @@ footer {
     font-size: 0.75rem;
     text-align: start;
   }
+  .next-event{
+    left: -5px;
+  }
   .user-conditions > .checkbox2-label{
     margin-bottom: 0;
   }
@@ -894,6 +902,9 @@ label {
   font-size: 0.85rem;
   text-align: start;
 }
+.next-event{
+  left: -5px;
+}
 .user-conditions > .checkbox2-label{
   margin-bottom: 0;
 }
@@ -978,6 +989,9 @@ label {
   font-size: 0.85rem;
   text-align: start;
 }
+.next-event{
+  left: -5px;
+}
 .user-conditions > .checkbox2-label{
   margin-bottom: 0;
 }
@@ -1061,6 +1075,9 @@ label {
   font-size: 0.85rem;
   text-align: start;
 }
+.next-event{
+  left: -5px;
+}
 .user-conditions > .checkbox2-label{
   margin-bottom: 0;
 }
@@ -1143,6 +1160,9 @@ label {
   margin-left: 20px;
   font-size: 0.85rem;
   text-align: start;
+}
+.next-event{
+  left: -5px;
 }
 .user-conditions > .checkbox2-label{
   margin-bottom: 0;
