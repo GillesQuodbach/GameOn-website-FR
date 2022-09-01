@@ -111,7 +111,7 @@ img {
 } 
 
 main {
-  font-size: 130%;
+  font-size: 110%;
   font-weight: bolder;
   color: black;
   padding-top: 0.5vw;
@@ -244,7 +244,7 @@ input[data-error]::after {
 .checkbox-label,
 .checkbox2-label {
   position: relative;
-  margin-left: 36px;
+  margin-left: 30px;
   font-size: 12px;
   font-weight: normal;
 }
@@ -253,7 +253,7 @@ input[data-error]::after {
   display: block;
   width: 20px;
   height: 20px;
-  border: 2px solid #279e7a;
+  border: 1px solid #279e7a;
   border-radius: 50%;
   text-indent: 29px;
   white-space: nowrap;
@@ -265,14 +265,14 @@ input[data-error]::after {
 .checkbox-label .checkbox-icon::after,
 .checkbox2-label .checkbox-icon::after {
   content: "";
-  width: 13px;
-  height: 13px;
+  width: 10px;
+  height: 10px;
   background-color: #279e7a;
   border-radius: 50%;
   text-indent: 29px;
   white-space: nowrap;
   position: absolute;
-  left: 50%;
+  left: 49%;
   top: 50%;
   transform: translate(-50%, -50%);
   transition: 0.3s;
@@ -489,6 +489,7 @@ footer {
 }
 /* MODIF BREAKPOINT AJOUT MIN-WIDTH 320PX */
 @media screen and (min-device-width: 320px) and (max-device-width: 374px) {
+  /* INDEX======================================================= */
   main {
     margin-bottom: 0px;
   }
@@ -544,8 +545,63 @@ footer {
     text-align: center;
     font-size: 0.6rem;
   }
+  /* MODAL=========================================================== */
+  label {
+    font-family: var(--font-default);
+    font-size: 0.58rem;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .text-label {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 0.65rem;
+  }
+  .checkbox-label{
+    margin-left: 20px;
+    margin-bottom: 0%;
+    font-size: 0.55rem;
+    text-align: start;
+  }
+  .checkbox-label .checkbox-icon,
+  .checkbox2-label .checkbox-icon{
+    width: 15px;
+    height: 15px;
+    left: -30px;
+    top: -2px;
+    margin-left: 10px;
+  }
+  .checkboxData{
+    width: 258px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .checkbox2-label{
+    margin-left: 20px;
+
+    font-size: 0.55rem;
+    text-align: start;
+  }
+  .user-conditions > .checkbox2-label{
+    margin-bottom: 0;
+  }
+  .user-conditions{
+    height: 65px;
+  }
+  .checkbox2-label .checkbox-icon::after {
+    width: 6px;
+    height: 3px;
+    left: 18%;
+    top: 17%;
+  }
+  .btn-submit{
+    font-size: 0.7rem;
+  padding: 8px 30px;
+  }
 }
 @media screen and (min-device-width: 375px) and (max-device-width: 424px) {
+  /* INDEX ===================================================*/
   main {
     margin-bottom: 0px;
   }
@@ -600,6 +656,60 @@ footer {
     margin-bottom: 20px;
     text-align: center;
     font-size: 0.65rem;
+  }
+  /* MODAL ====================================================*/
+  label {
+    font-family: var(--font-default);
+    font-size: 0.69rem;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .text-label {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 0.75rem;
+  }
+  .checkbox-label{
+    margin-left: 20px;
+    margin-bottom: 0%;
+    font-size: 0.7rem;
+    text-align: start;
+  }
+  .checkbox-label .checkbox-icon,
+  .checkbox2-label .checkbox-icon{
+    width: 15px;
+    height: 15px;
+    left: -30px;
+    top: -2px;
+    margin-left: 10px;
+  }
+  .checkboxData{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .checkbox2-label{
+    margin-left: 20px;
+    font-size: 0.65rem;
+    text-align: start;
+  }
+  .user-conditions > .checkbox2-label{
+    margin-bottom: 0;
+  }
+  .user-conditions{
+    height: 65px;
+  }
+  .checkbox2-label .checkbox-icon::after {
+    width: 6px;
+    height: 3px;
+    left: 18%;
+    top: 17%;
+  }
+  .btn-submit{
+    font-size: 0.7rem;
+  padding: 8px 30px;
   }
 }
 @media screen and (min-device-width: 425px) and (max-device-width: 767px) {
@@ -656,6 +766,60 @@ footer {
     text-align: center;
     font-size: 0.65rem;
   }
+  /* MODAL ====================================================*/
+  label {
+    font-family: var(--font-default);
+    font-size: 0.77rem;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .text-label {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 0.85rem;
+  }
+  .checkbox-label{
+    margin-left: 20px;
+    margin-bottom: 0%;
+    font-size: 0.85rem;
+    text-align: start;
+  }
+  .checkbox-label .checkbox-icon,
+  .checkbox2-label .checkbox-icon{
+    width: 15px;
+    height: 15px;
+    left: -30px;
+    top: 0px;
+    margin-left: 10px;
+  }
+  .checkboxData{
+    width: 350px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .checkbox2-label{
+    margin-left: 20px;
+    font-size: 0.75rem;
+    text-align: start;
+  }
+  .user-conditions > .checkbox2-label{
+    margin-bottom: 0;
+  }
+  .user-conditions{
+    height: 65px;
+  }
+  .checkbox2-label .checkbox-icon::after {
+    width: 6px;
+    height: 3px;
+    left: 18%;
+    top: 17%;
+  }
+  .btn-submit{
+    font-size: 0.7rem;
+  padding: 8px 30px;
+  }
 }
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .header-logo img {
@@ -692,6 +856,60 @@ footer {
   .copyrights {
     font-size: 0.6rem;
 }
+/* MODAL ====================================================*/
+label {
+  font-family: var(--font-default);
+  font-size: 0.87rem;
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.text-label {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 1rem;
+}
+.checkbox-label{
+  margin-left: 20px;
+  margin-bottom: 0%;
+  font-size: 0.95rem;
+  text-align: start;
+}
+.checkbox-label .checkbox-icon,
+.checkbox2-label .checkbox-icon{
+  width: 15px;
+  height: 15px;
+  left: -30px;
+  top: 2px;
+  margin-left: 10px;
+}
+.checkboxData{
+  width: 400px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.checkbox2-label{
+  margin-left: 20px;
+  font-size: 0.85rem;
+  text-align: start;
+}
+.user-conditions > .checkbox2-label{
+  margin-bottom: 0;
+}
+.user-conditions{
+  height: 65px;
+}
+.checkbox2-label .checkbox-icon::after {
+  width: 6px;
+  height: 3px;
+  left: 18%;
+  top: 17%;
+}
+.btn-submit{
+  font-size: 0.7rem;
+padding: 8px 30px;
+}
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
@@ -722,6 +940,60 @@ footer {
   font-size: 1.2rem;
   padding: 10px 20px;
 }
+/* MODAL ====================================================*/
+label {
+  font-family: var(--font-default);
+  font-size: 0.87rem;
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.text-label {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 1rem;
+}
+.checkbox-label{
+  margin-left: 20px;
+  margin-bottom: 0%;
+  font-size: 0.95rem;
+  text-align: start;
+}
+.checkbox-label .checkbox-icon,
+.checkbox2-label .checkbox-icon{
+  width: 15px;
+  height: 15px;
+  left: -30px;
+  top: 2px;
+  margin-left: 10px;
+}
+.checkboxData{
+  width: 400px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.checkbox2-label{
+  margin-left: 20px;
+  font-size: 0.85rem;
+  text-align: start;
+}
+.user-conditions > .checkbox2-label{
+  margin-bottom: 0;
+}
+.user-conditions{
+  height: 65px;
+}
+.checkbox2-label .checkbox-icon::after {
+  width: 6px;
+  height: 3px;
+  left: 18%;
+  top: 17%;
+}
+.btn-submit{
+  font-size: 0.7rem;
+padding: 8px 30px;
+}
 }
 @media screen and (min-device-width: 1440px) and (max-device-width: 2559px) {
   .header-logo img {
@@ -751,6 +1023,60 @@ footer {
   font-size: 1.2rem;
   padding: 10px 20px;
 }
+/* MODAL ====================================================*/
+label {
+  font-family: var(--font-default);
+  font-size: 0.87rem;
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.text-label {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 1rem;
+}
+.checkbox-label{
+  margin-left: 20px;
+  margin-bottom: 0%;
+  font-size: 0.95rem;
+  text-align: start;
+}
+.checkbox-label .checkbox-icon,
+.checkbox2-label .checkbox-icon{
+  width: 15px;
+  height: 15px;
+  left: -30px;
+  top: 2px;
+  margin-left: 10px;
+}
+.checkboxData{
+  width: 400px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.checkbox2-label{
+  margin-left: 20px;
+  font-size: 0.85rem;
+  text-align: start;
+}
+.user-conditions > .checkbox2-label{
+  margin-bottom: 0;
+}
+.user-conditions{
+  height: 65px;
+}
+.checkbox2-label .checkbox-icon::after {
+  width: 6px;
+  height: 3px;
+  left: 18%;
+  top: 17%;
+}
+.btn-submit{
+  font-size: 0.7rem;
+padding: 8px 30px;
+}
 }
 @media screen and (min-device-width: 2560px) and (max-device-width: 4000px) {
   .header-logo img {
@@ -779,6 +1105,60 @@ footer {
   margin-top: 300px;
   font-size: 1.2rem;
   padding: 10px 20px;
+}
+/* MODAL ====================================================*/
+label {
+  font-family: var(--font-default);
+  font-size: 0.87rem;
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.text-label {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 1rem;
+}
+.checkbox-label{
+  margin-left: 20px;
+  margin-bottom: 0%;
+  font-size: 0.95rem;
+  text-align: start;
+}
+.checkbox-label .checkbox-icon,
+.checkbox2-label .checkbox-icon{
+  width: 15px;
+  height: 15px;
+  left: -30px;
+  top: 2px;
+  margin-left: 10px;
+}
+.checkboxData{
+  width: 400px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.checkbox2-label{
+  margin-left: 20px;
+  font-size: 0.85rem;
+  text-align: start;
+}
+.user-conditions > .checkbox2-label{
+  margin-bottom: 0;
+}
+.user-conditions{
+  height: 65px;
+}
+.checkbox2-label .checkbox-icon::after {
+  width: 6px;
+  height: 3px;
+  left: 18%;
+  top: 17%;
+}
+.btn-submit{
+  font-size: 0.7rem;
+padding: 8px 30px;
 }
 }
 @keyframes modalopen {
