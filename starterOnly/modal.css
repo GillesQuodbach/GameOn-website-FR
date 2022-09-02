@@ -47,6 +47,7 @@ img {
   display: block;
   color: #000;
   text-align: center;
+  line-height: 20px;
   padding: 12px 12px;
   margin: 5px;
   text-decoration: none;
@@ -1197,7 +1198,7 @@ padding: 8px 30px;
 }
 
 #thanks-modal-container{
-  /*display: block;*/
+  /* display: block; */
   display:none;
   z-index: 3330;
   position: fixed;
@@ -1210,7 +1211,7 @@ padding: 8px 30px;
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(26, 39, 156, 0.4);
+  background-color: rgba(26, 39, 156, 0.8);
 }
 
 .thanks-modal-content {
