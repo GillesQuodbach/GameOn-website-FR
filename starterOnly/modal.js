@@ -12,7 +12,7 @@ const myForm = document.querySelector("#reserve");
 const formData = document.querySelectorAll(".formData");
 const modalbg = document.querySelector(".bground");
 const modalBtn = document.querySelectorAll(".modal-btn");
-const xButton = document.querySelector(".close"); // Bouton croix
+
 const firstName = document.querySelector("#firstName"); // Prénom
 const lastName = document.querySelector("#lastName"); // Nom
 const email = document.querySelector("#email"); //Email
@@ -31,7 +31,9 @@ const birthdateError = document.querySelector(".birthdate-error");
 const checkboxError = document.querySelector(".checkbox-error");
 
 //REGEXP
+// MAIL REGEXP
 const emailRegExp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+//DATE REGEXP
 const dateRegExp =/^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/
 
 //FORMULAIRE D'INSCRIPTION
@@ -41,17 +43,21 @@ modalBtn.forEach((btn) => btn.addEventListener("click", launchModal));
 function launchModal() {
   modalbg.style.display = "block";
 }
+// modal close button
+const xButton = document.querySelector(".close"); // Bouton croix
 // close modal event
 xButton.addEventListener("click", closeModal);
 // close modal form
 function closeModal() {
   modalbg.style.display = "none";
 }
+// Apparition modal
 const thxModal = document.querySelector("#thanks-modal-container");
 function launchThxModal() {
   thxModal.style.display = "block";
 }
 
+// Submit formulaire 
 myForm.addEventListener("submit", function(e){
   e.preventDefault();
   if (validate(myForm) === true) {
