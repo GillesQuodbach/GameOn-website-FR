@@ -30,17 +30,15 @@ img {
   padding-right: 1rem;
 }
 
-
-
 .topnav {
   overflow: hidden;
   margin: 3.5%;
 }
 .header-logo {
-    float: left;
+  float: left;
 }
 .main-navbar {
-    float: right;
+  float: right;
 }
 .topnav a {
   float: left;
@@ -72,14 +70,16 @@ img {
   color: #ff0000;
 }
 
-  .hero-headline {
-    font-size: 20px;
-    font-weight: normal;
-    white-space: nowrap;
-  }
+.hero-headline {
+  font-size: 20px;
+  font-weight: normal;
+  white-space: nowrap;
+}
 
 @media screen and (max-width: 768px) {
-  .topnav a {display: none;}
+  .topnav a {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -87,7 +87,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -100,16 +102,16 @@ img {
   }
 }
 
-
-
- @media screen and (max-width: 540px) {
-  .topnav a {display: none;}
+@media screen and (max-width: 540px) {
+  .topnav a {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
     margin-top: 1px;
   }
-} 
+}
 
 main {
   font-size: 110%;
@@ -121,8 +123,6 @@ main {
   margin: 1px 20px 15px;
   border-radius: 2rem;
   text-align: justify;
-
-
 }
 
 .modal-btn {
@@ -488,7 +488,7 @@ footer {
   padding-right: 2vw;
   margin: 0 20px;
 }
-/* MODIF BREAKPOINT AJOUT MIN-WIDTH 320PX */
+/* BREAKPOINT MOBILE S*/
 @media screen and (min-device-width: 320px) and (max-device-width: 374px) {
   /* INDEX======================================================= */
   main {
@@ -507,13 +507,11 @@ footer {
   .hero-section {
     display: block;
     box-shadow: unset;
-    
   }
   .hero-content {
     background: #fff;
     color: #000;
     padding: 0px; /*modified*/
-    
   }
   .hero-content::after {
     content: unset;
@@ -559,37 +557,37 @@ footer {
     font-weight: normal;
     font-size: 0.65rem;
   }
-  .checkbox-label{
+  .checkbox-label {
     margin-left: 20px;
     margin-bottom: 0%;
     font-size: 0.55rem;
     text-align: start;
   }
   .checkbox-label .checkbox-icon,
-  .checkbox2-label .checkbox-icon{
+  .checkbox2-label .checkbox-icon {
     width: 15px;
     height: 15px;
     left: -30px;
     top: -2px;
     margin-left: 10px;
   }
-  .next-event{
+  .next-event {
     left: -5px;
   }
-  .checkboxData{
+  .checkboxData {
     width: 260px;
     height: 50px;
     margin-bottom: 5px;
   }
-  .checkbox2-label{
+  .checkbox2-label {
     margin-left: 20px;
     font-size: 0.55rem;
     text-align: start;
   }
-  .user-conditions > .checkbox2-label{
+  .user-conditions > .checkbox2-label {
     margin-bottom: 0;
   }
-  .user-conditions{
+  .user-conditions {
     height: 65px;
   }
   .checkbox2-label .checkbox-icon::after {
@@ -598,11 +596,12 @@ footer {
     left: 18%;
     top: 17%;
   }
-  .btn-submit{
+  .btn-submit {
     font-size: 0.7rem;
-  padding: 8px 30px;
+    padding: 8px 30px;
   }
 }
+/* BREAKPOINT MOBILE M*/
 @media screen and (min-device-width: 375px) and (max-device-width: 424px) {
   /* INDEX ===================================================*/
   main {
@@ -621,13 +620,11 @@ footer {
   .hero-section {
     display: block;
     box-shadow: unset;
-    
   }
   .hero-content {
     background: #fff;
     color: #000;
     padding: 0px; /*modified*/
-    
   }
   .hero-content::after {
     content: unset;
@@ -674,37 +671,37 @@ footer {
     font-weight: normal;
     font-size: 0.75rem;
   }
-  .checkbox-label{
+  .checkbox-label {
     margin-left: 20px;
     margin-bottom: 0%;
     font-size: 0.7rem;
     text-align: start;
   }
   .checkbox-label .checkbox-icon,
-  .checkbox2-label .checkbox-icon{
+  .checkbox2-label .checkbox-icon {
     width: 15px;
     height: 15px;
     left: -30px;
     top: -2px;
     margin-left: 10px;
   }
-  .next-event{
+  .next-event {
     left: -5px;
   }
-  .checkboxData{
+  .checkboxData {
     width: 300px;
     height: 50px;
     margin-bottom: 5px;
   }
-  .checkbox2-label{
+  .checkbox2-label {
     margin-left: 20px;
     font-size: 0.65rem;
     text-align: start;
   }
-  .user-conditions > .checkbox2-label{
+  .user-conditions > .checkbox2-label {
     margin-bottom: 0;
   }
-  .user-conditions{
+  .user-conditions {
     height: 65px;
   }
   .checkbox2-label .checkbox-icon::after {
@@ -713,11 +710,12 @@ footer {
     left: 18%;
     top: 17%;
   }
-  .btn-submit{
+  .btn-submit {
     font-size: 0.7rem;
-  padding: 8px 30px;
+    padding: 8px 30px;
   }
 }
+/* BREAKPOINT MOBILE L*/
 @media screen and (min-device-width: 425px) and (max-device-width: 767px) {
   main {
     margin-bottom: 0px;
@@ -786,37 +784,37 @@ footer {
     font-weight: normal;
     font-size: 0.85rem;
   }
-  .checkbox-label{
+  .checkbox-label {
     margin-left: 20px;
     margin-bottom: 0%;
     font-size: 0.85rem;
     text-align: start;
   }
   .checkbox-label .checkbox-icon,
-  .checkbox2-label .checkbox-icon{
+  .checkbox2-label .checkbox-icon {
     width: 15px;
     height: 15px;
     left: -30px;
     top: 0px;
     margin-left: 10px;
   }
-  .checkboxData{
+  .checkboxData {
     width: 350px;
     height: 50px;
     margin-bottom: 5px;
   }
-  .checkbox2-label{
+  .checkbox2-label {
     margin-left: 20px;
     font-size: 0.75rem;
     text-align: start;
   }
-  .next-event{
+  .next-event {
     left: -5px;
   }
-  .user-conditions > .checkbox2-label{
+  .user-conditions > .checkbox2-label {
     margin-bottom: 0;
   }
-  .user-conditions{
+  .user-conditions {
     height: 65px;
   }
   .checkbox2-label .checkbox-icon::after {
@@ -825,11 +823,12 @@ footer {
     left: 18%;
     top: 17%;
   }
-  .btn-submit{
+  .btn-submit {
     font-size: 0.7rem;
-  padding: 8px 30px;
+    padding: 8px 30px;
   }
 }
+/* BREAKPOINT TABLETTE*/
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .header-logo img {
     margin-top: 10px;
@@ -841,10 +840,10 @@ footer {
     font-size: 19px;
     margin-top: -1px;
   }
-  .hero-content{
-  padding: 40px 30px;
+  .hero-content {
+    padding: 40px 30px;
   }
-  .hero-headline{
+  .hero-headline {
     font-size: 3.1rem;
   }
   .hero-text {
@@ -855,75 +854,75 @@ footer {
     font-size: 1.2rem;
     padding: 10px 20px;
   }
-  .hero-img{
+  .hero-img {
     z-index: 0;
   }
-  footer{
+  footer {
     margin-left: 5px;
     margin-bottom: 30px;
   }
   .copyrights {
     font-size: 0.6rem;
+  }
+  /* MODAL ====================================================*/
+  label {
+    font-family: var(--font-default);
+    font-size: 0.87rem;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .text-label {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  .checkbox-label {
+    margin-left: 20px;
+    margin-bottom: 0%;
+    font-size: 0.95rem;
+    text-align: start;
+  }
+  .checkbox-label .checkbox-icon,
+  .checkbox2-label .checkbox-icon {
+    width: 15px;
+    height: 15px;
+    left: -30px;
+    top: 2px;
+    margin-left: 10px;
+  }
+  .checkboxData {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .checkbox2-label {
+    margin-left: 20px;
+    font-size: 0.85rem;
+    text-align: start;
+  }
+  .next-event {
+    left: -5px;
+  }
+  .user-conditions > .checkbox2-label {
+    margin-bottom: 0;
+  }
+  .user-conditions {
+    height: 65px;
+  }
+  .checkbox2-label .checkbox-icon::after {
+    width: 6px;
+    height: 3px;
+    left: 18%;
+    top: 17%;
+  }
+  .btn-submit {
+    font-size: 0.7rem;
+    padding: 8px 30px;
+  }
 }
-/* MODAL ====================================================*/
-label {
-  font-family: var(--font-default);
-  font-size: 0.87rem;
-  font-weight: normal;
-  display: inline-block;
-  margin-bottom: 10px;
-  text-align: start;
-}
-.text-label {
-  margin-top: 10px;
-  font-weight: normal;
-  font-size: 1rem;
-}
-.checkbox-label{
-  margin-left: 20px;
-  margin-bottom: 0%;
-  font-size: 0.95rem;
-  text-align: start;
-}
-.checkbox-label .checkbox-icon,
-.checkbox2-label .checkbox-icon{
-  width: 15px;
-  height: 15px;
-  left: -30px;
-  top: 2px;
-  margin-left: 10px;
-}
-.checkboxData{
-  width: 400px;
-  height: 50px;
-  margin-bottom: 5px;
-}
-.checkbox2-label{
-  margin-left: 20px;
-  font-size: 0.85rem;
-  text-align: start;
-}
-.next-event{
-  left: -5px;
-}
-.user-conditions > .checkbox2-label{
-  margin-bottom: 0;
-}
-.user-conditions{
-  height: 65px;
-}
-.checkbox2-label .checkbox-icon::after {
-  width: 6px;
-  height: 3px;
-  left: 18%;
-  top: 17%;
-}
-.btn-submit{
-  font-size: 0.7rem;
-padding: 8px 30px;
-}
-}
-
+/* BREAKPOINT DESKTOP S*/
 @media screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
   .header-logo img {
     margin-top: 10px;
@@ -934,82 +933,83 @@ padding: 8px 30px;
   .main-navbar span {
     font-size: 0.8rem;
   }
-  .hero-img{
-  z-index: 0;
+  .hero-img {
+    z-index: 0;
   }
-  .hero-content{
+  .hero-content {
     padding: 40px 30px;
   }
-  .hero-headline{
-  font-size: 4rem;
+  .hero-headline {
+    font-size: 4rem;
+  }
+  .hero-text {
+    margin-top: 120px;
+    font-size: 0.95rem;
+  }
+  .btn-signup {
+    margin-top: 80px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  /* MODAL ====================================================*/
+  label {
+    font-family: var(--font-default);
+    font-size: 0.87rem;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .text-label {
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  .checkbox-label {
+    margin-left: 20px;
+    margin-bottom: 0%;
+    font-size: 0.95rem;
+    text-align: start;
+  }
+  .checkbox-label .checkbox-icon,
+  .checkbox2-label .checkbox-icon {
+    width: 15px;
+    height: 15px;
+    left: -30px;
+    top: 2px;
+    margin-left: 10px;
+  }
+  .checkboxData {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .checkbox2-label {
+    margin-left: 20px;
+    font-size: 0.85rem;
+    text-align: start;
+  }
+  .next-event {
+    left: -5px;
+  }
+  .user-conditions > .checkbox2-label {
+    margin-bottom: 0;
+  }
+  .user-conditions {
+    height: 65px;
+  }
+  .checkbox2-label .checkbox-icon::after {
+    width: 6px;
+    height: 3px;
+    left: 18%;
+    top: 17%;
+  }
+  .btn-submit {
+    font-size: 0.7rem;
+    padding: 8px 30px;
+  }
 }
-.hero-text{
-  margin-top: 120px;
-  font-size: 0.95rem;
-}
-.btn-signup {
-  margin-top: 80px;
-  font-size: 1.2rem;
-  padding: 10px 20px;
-}
-/* MODAL ====================================================*/
-label {
-  font-family: var(--font-default);
-  font-size: 0.87rem;
-  font-weight: normal;
-  display: inline-block;
-  margin-bottom: 10px;
-  text-align: start;
-}
-.text-label {
-  margin-top: 5px;
-  font-weight: normal;
-  font-size: 1rem;
-}
-.checkbox-label{
-  margin-left: 20px;
-  margin-bottom: 0%;
-  font-size: 0.95rem;
-  text-align: start;
-}
-.checkbox-label .checkbox-icon,
-.checkbox2-label .checkbox-icon{
-  width: 15px;
-  height: 15px;
-  left: -30px;
-  top: 2px;
-  margin-left: 10px;
-}
-.checkboxData{
-  width: 400px;
-  height: 50px;
-  margin-bottom: 5px;
-}
-.checkbox2-label{
-  margin-left: 20px;
-  font-size: 0.85rem;
-  text-align: start;
-}
-.next-event{
-  left: -5px;
-}
-.user-conditions > .checkbox2-label{
-  margin-bottom: 0;
-}
-.user-conditions{
-  height: 65px;
-}
-.checkbox2-label .checkbox-icon::after {
-  width: 6px;
-  height: 3px;
-  left: 18%;
-  top: 17%;
-}
-.btn-submit{
-  font-size: 0.7rem;
-padding: 8px 30px;
-}
-}
+/* BREAKPOINT DESKTOP M*/
 @media screen and (min-device-width: 1440px) and (max-device-width: 2559px) {
   .header-logo img {
     margin-top: 10px;
@@ -1020,82 +1020,83 @@ padding: 8px 30px;
   .main-navbar span {
     font-size: 0.8rem;
   }
-  .hero-img{
-  z-index: 0;
+  .hero-img {
+    z-index: 0;
   }
-  .hero-content{
+  .hero-content {
     padding: 80px 30px;
   }
-  .hero-headline{
-  font-size: 5rem;
+  .hero-headline {
+    font-size: 5rem;
+  }
+  .hero-text {
+    margin-top: 120px;
+    font-size: 0.95rem;
+  }
+  .btn-signup {
+    margin-top: 170px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  /* MODAL ====================================================*/
+  label {
+    font-family: var(--font-default);
+    font-size: 0.87rem;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .text-label {
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  .checkbox-label {
+    margin-left: 20px;
+    margin-bottom: 0%;
+    font-size: 0.95rem;
+    text-align: start;
+  }
+  .checkbox-label .checkbox-icon,
+  .checkbox2-label .checkbox-icon {
+    width: 15px;
+    height: 15px;
+    left: -30px;
+    top: 2px;
+    margin-left: 10px;
+  }
+  .checkboxData {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .checkbox2-label {
+    margin-left: 20px;
+    font-size: 0.85rem;
+    text-align: start;
+  }
+  .next-event {
+    left: -5px;
+  }
+  .user-conditions > .checkbox2-label {
+    margin-bottom: 0;
+  }
+  .user-conditions {
+    height: 65px;
+  }
+  .checkbox2-label .checkbox-icon::after {
+    width: 6px;
+    height: 3px;
+    left: 18%;
+    top: 17%;
+  }
+  .btn-submit {
+    font-size: 0.7rem;
+    padding: 8px 30px;
+  }
 }
-.hero-text{
-  margin-top: 120px;
-  font-size: 0.95rem;
-}
-.btn-signup {
-  margin-top: 170px;
-  font-size: 1.2rem;
-  padding: 10px 20px;
-}
-/* MODAL ====================================================*/
-label {
-  font-family: var(--font-default);
-  font-size: 0.87rem;
-  font-weight: normal;
-  display: inline-block;
-  margin-bottom: 10px;
-  text-align: start;
-}
-.text-label {
-  margin-top: 5px;
-  font-weight: normal;
-  font-size: 1rem;
-}
-.checkbox-label{
-  margin-left: 20px;
-  margin-bottom: 0%;
-  font-size: 0.95rem;
-  text-align: start;
-}
-.checkbox-label .checkbox-icon,
-.checkbox2-label .checkbox-icon{
-  width: 15px;
-  height: 15px;
-  left: -30px;
-  top: 2px;
-  margin-left: 10px;
-}
-.checkboxData{
-  width: 400px;
-  height: 50px;
-  margin-bottom: 5px;
-}
-.checkbox2-label{
-  margin-left: 20px;
-  font-size: 0.85rem;
-  text-align: start;
-}
-.next-event{
-  left: -5px;
-}
-.user-conditions > .checkbox2-label{
-  margin-bottom: 0;
-}
-.user-conditions{
-  height: 65px;
-}
-.checkbox2-label .checkbox-icon::after {
-  width: 6px;
-  height: 3px;
-  left: 18%;
-  top: 17%;
-}
-.btn-submit{
-  font-size: 0.7rem;
-padding: 8px 30px;
-}
-}
+/* BREAKPOINT DESKTOP L*/
 @media screen and (min-device-width: 2560px) and (max-device-width: 4000px) {
   .header-logo img {
     margin-top: 10px;
@@ -1106,81 +1107,81 @@ padding: 8px 30px;
   .main-navbar span {
     font-size: 0.8rem;
   }
-  .hero-img{
-  z-index: 0;
+  .hero-img {
+    z-index: 0;
   }
-  .hero-content{
+  .hero-content {
     padding: 80px 30px;
   }
-  .hero-headline{
-  font-size: 5rem;
-}
-.hero-text{
-  margin-top: 120px;
-  font-size: 0.95rem;
-}
-.btn-signup {
-  margin-top: 300px;
-  font-size: 1.2rem;
-  padding: 10px 20px;
-}
-/* MODAL ====================================================*/
-label {
-  font-family: var(--font-default);
-  font-size: 0.87rem;
-  font-weight: normal;
-  display: inline-block;
-  margin-bottom: 10px;
-  text-align: start;
-}
-.text-label {
-  margin-top: 5px;
-  font-weight: normal;
-  font-size: 1rem;
-}
-.checkbox-label{
-  margin-left: 20px;
-  margin-bottom: 0%;
-  font-size: 0.95rem;
-  text-align: start;
-}
-.checkbox-label .checkbox-icon,
-.checkbox2-label .checkbox-icon{
-  width: 15px;
-  height: 15px;
-  left: -30px;
-  top: 2px;
-  margin-left: 10px;
-}
-.checkboxData{
-  width: 400px;
-  height: 50px;
-  margin-bottom: 5px;
-}
-.checkbox2-label{
-  margin-left: 20px;
-  font-size: 0.85rem;
-  text-align: start;
-}
-.next-event{
-  left: -5px;
-}
-.user-conditions > .checkbox2-label{
-  margin-bottom: 0;
-}
-.user-conditions{
-  height: 65px;
-}
-.checkbox2-label .checkbox-icon::after {
-  width: 6px;
-  height: 3px;
-  left: 18%;
-  top: 17%;
-}
-.btn-submit{
-  font-size: 0.7rem;
-padding: 8px 30px;
-}
+  .hero-headline {
+    font-size: 5rem;
+  }
+  .hero-text {
+    margin-top: 120px;
+    font-size: 0.95rem;
+  }
+  .btn-signup {
+    margin-top: 300px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  /* MODAL ====================================================*/
+  label {
+    font-family: var(--font-default);
+    font-size: 0.87rem;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .text-label {
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  .checkbox-label {
+    margin-left: 20px;
+    margin-bottom: 0%;
+    font-size: 0.95rem;
+    text-align: start;
+  }
+  .checkbox-label .checkbox-icon,
+  .checkbox2-label .checkbox-icon {
+    width: 15px;
+    height: 15px;
+    left: -30px;
+    top: 2px;
+    margin-left: 10px;
+  }
+  .checkboxData {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .checkbox2-label {
+    margin-left: 20px;
+    font-size: 0.85rem;
+    text-align: start;
+  }
+  .next-event {
+    left: -5px;
+  }
+  .user-conditions > .checkbox2-label {
+    margin-bottom: 0;
+  }
+  .user-conditions {
+    height: 65px;
+  }
+  .checkbox2-label .checkbox-icon::after {
+    width: 6px;
+    height: 3px;
+    left: 18%;
+    top: 17%;
+  }
+  .btn-submit {
+    font-size: 0.7rem;
+    padding: 8px 30px;
+  }
 }
 @keyframes modalopen {
   from {
@@ -1191,23 +1192,24 @@ padding: 8px 30px;
     opacity: 1;
   }
 }
-
+/* CSS MODAL REMERCIEMENTS*/
+/* MESSAGE ERREUR*/
 .errormsg {
   color: red;
   font-size: 14px;
 }
 
-#thanks-modal-container{
+#thanks-modal-container {
   /* display: block; */
-  display:none;
+  display: none;
   z-index: 3330;
   position: fixed;
   top: 0;
-  width:100vw;
-  height:100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1234,7 +1236,7 @@ padding: 8px 30px;
   bottom: 20px;
 }
 
-.checkbox-error{
+.checkbox-error {
   display: inline-block;
   text-align: start;
 }
