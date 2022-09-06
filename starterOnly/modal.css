@@ -585,10 +585,11 @@ footer {
     text-align: start;
   }
   .user-conditions > .checkbox2-label {
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
   .user-conditions {
     height: 65px;
+    margin-bottom: 20px;
   }
   .checkbox2-label .checkbox-icon::after {
     width: 6px;
@@ -599,6 +600,10 @@ footer {
   .btn-submit {
     font-size: 0.7rem;
     padding: 8px 30px;
+  }
+  .errormsg {
+    color: red;
+    font-size: 0.6rem;
   }
 }
 /* BREAKPOINT MOBILE M*/
@@ -703,6 +708,7 @@ footer {
   }
   .user-conditions {
     height: 65px;
+    margin-bottom: 20px;
   }
   .checkbox2-label .checkbox-icon::after {
     width: 6px;
@@ -713,6 +719,10 @@ footer {
   .btn-submit {
     font-size: 0.7rem;
     padding: 8px 30px;
+  }
+  .errormsg {
+    color: red;
+    font-size: 0.7rem;
   }
 }
 /* BREAKPOINT MOBILE L*/
@@ -816,6 +826,7 @@ footer {
   }
   .user-conditions {
     height: 65px;
+    margin-bottom: 20px;
   }
   .checkbox2-label .checkbox-icon::after {
     width: 6px;
@@ -826,6 +837,10 @@ footer {
   .btn-submit {
     font-size: 0.7rem;
     padding: 8px 30px;
+  }
+  .errormsg {
+    color: red;
+    font-size: 0.8rem;
   }
 }
 /* BREAKPOINT TABLETTE*/
@@ -910,6 +925,7 @@ footer {
   }
   .user-conditions {
     height: 65px;
+    margin-bottom: 20px;
   }
   .checkbox2-label .checkbox-icon::after {
     width: 6px;
@@ -920,6 +936,10 @@ footer {
   .btn-submit {
     font-size: 0.7rem;
     padding: 8px 30px;
+  }
+  .errormsg {
+    color: red;
+    font-size: 0.8rem;
   }
 }
 /* BREAKPOINT DESKTOP S*/
@@ -997,6 +1017,7 @@ footer {
   }
   .user-conditions {
     height: 65px;
+    margin-bottom: 20px;
   }
   .checkbox2-label .checkbox-icon::after {
     width: 6px;
@@ -1007,6 +1028,10 @@ footer {
   .btn-submit {
     font-size: 0.7rem;
     padding: 8px 30px;
+  }
+  .errormsg {
+    color: red;
+    font-size: 0.8rem;
   }
 }
 /* BREAKPOINT DESKTOP M*/
@@ -1084,6 +1109,7 @@ footer {
   }
   .user-conditions {
     height: 65px;
+    margin-bottom: 20px;
   }
   .checkbox2-label .checkbox-icon::after {
     width: 6px;
@@ -1094,6 +1120,10 @@ footer {
   .btn-submit {
     font-size: 0.7rem;
     padding: 8px 30px;
+  }
+  .errormsg {
+    color: red;
+    font-size: 0.8rem;
   }
 }
 /* BREAKPOINT DESKTOP L*/
@@ -1171,6 +1201,7 @@ footer {
   }
   .user-conditions {
     height: 65px;
+    margin-bottom: 20px;
   }
   .checkbox2-label .checkbox-icon::after {
     width: 6px;
@@ -1181,6 +1212,10 @@ footer {
   .btn-submit {
     font-size: 0.7rem;
     padding: 8px 30px;
+  }
+  .errormsg {
+    color: red;
+    font-size: 0.8rem;
   }
 }
 @keyframes modalopen {
@@ -1194,10 +1229,10 @@ footer {
 }
 /* CSS MODAL REMERCIEMENTS*/
 /* MESSAGE ERREUR*/
-.errormsg {
+/* .errormsg {
   color: red;
   font-size: 14px;
-}
+} */
 
 #thanks-modal-container {
   /* display: block; */
