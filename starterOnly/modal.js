@@ -52,19 +52,26 @@ function closeModal() {
   modalbg.style.display = "none";
 }
 // Apparition modal
-const thxModal = document.querySelector("#thanks-modal-container");
+const thxModal = document.querySelector("#modal-merci");
 function launchThxModal() {
-  thxModal.style.display = "block";
+  thxModal.style.visibility = "visible";
 }
+// Fermeture modal
+const closeModalMerci = document.querySelector(".bouton-fermer");
+closeModalMerci.addEventListener("click", fermetureMM);
+function fermetureMM() { 
+  modalbg.style.display = "none";
+}
+  
 
 // Submit formulaire
 myForm.addEventListener("submit", function (e) {
   e.preventDefault();
   if (validate(myForm) === true) {
     launchThxModal();
-    setTimeout(() => {
-      myForm.submit();
-    }, 2000);
+    // setTimeout(() => {
+    //   myForm.submit();
+    // }, 2000);
   }
 });
 
@@ -88,8 +95,14 @@ function validate() {
     // return false;
   }
   //Validation Date de naissance
+  
+  let today = new Date();
+  let todayTime = today.getTime(); //Récupération timestamp actuel
+  let dateOfBirth = new Date (birthdate.value);
+  let dateOfBirthTime = dateOfBirth.getTime(); //Récupération timestamp anniversaire
   let testDate = dateRegExp.test(birthdate.value);
-  if (testDate === false) {
+
+  if (testDate === false || dateOfBirthTime >= todayTime) {
     birthdateError.innerHTML = "Veuillez entrer votre date de naissance.";
     // return false;
   }

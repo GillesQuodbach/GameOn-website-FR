@@ -167,6 +167,8 @@ main {
   font-size: 16px;
 }
 
+
+
 .bground {
   display: none;
   position: fixed;
@@ -180,6 +182,7 @@ main {
 }
 
 .content {
+  
   margin: 5% auto;
   width: 100%;
   max-width: 500px;
@@ -194,10 +197,40 @@ main {
 }
 
 .modal-body {
+  
   padding: 15px 8%;
   margin: 15px auto;
 }
 
+#modal-merci {
+  visibility: hidden;
+  z-index: 111111;
+  width: 100%;
+  max-width: 500px;
+  min-height: 100%;
+  background: #232323;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  color: #fff;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal-merci-text{
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 200px;
+  /* min-height: 620px; */
+  font-weight: 300;
+  
+  
+}
+.bouton-fermer{
+  z-index: 1111111;
+}
 label {
   font-family: var(--font-default);
   font-size: 17px;
@@ -315,6 +348,7 @@ input[data-error]::after {
   opacity: 1;
   cursor: pointer;
   transform: scale(0.7);
+  z-index: 111111111;
 }
 .close:before,
 .close:after {
@@ -605,6 +639,15 @@ footer {
     color: red;
     font-size: 0.6rem;
   }
+  /* MODAL REMERCIEMENS */
+  .modal-merci-text{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 250px;
+    min-height: 580px;
+    font-weight: 300;
+    
+  }
 }
 /* BREAKPOINT MOBILE M*/
 @media screen and (min-device-width: 375px) and (max-device-width: 424px) {
@@ -724,6 +767,15 @@ footer {
     color: red;
     font-size: 0.7rem;
   }
+  /* MODAL REMERCIEMENS */
+  .modal-merci-text{
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 250px;
+    min-height: 580px;
+    font-weight: 300;
+    
+  }
 }
 /* BREAKPOINT MOBILE L*/
 @media screen and (min-device-width: 425px) and (max-device-width: 767px) {
@@ -842,6 +894,15 @@ footer {
     color: red;
     font-size: 0.8rem;
   }
+   /* MODAL REMERCIEMENS */
+   .modal-merci-text{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 250px;
+    min-height: 580px;
+    font-weight: 300;
+    
+  }
 }
 /* BREAKPOINT TABLETTE*/
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
@@ -941,6 +1002,15 @@ footer {
     color: red;
     font-size: 0.8rem;
   }
+   /* MODAL REMERCIEMENS */
+   .modal-merci-text{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 250px;
+    min-height: 580px;
+    font-weight: 300;
+    
+  }
 }
 /* BREAKPOINT DESKTOP S*/
 @media screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
@@ -1032,6 +1102,15 @@ footer {
   .errormsg {
     color: red;
     font-size: 0.8rem;
+  }
+   /* MODAL REMERCIEMENS */
+   .modal-merci-text{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 250px;
+    min-height: 580px;
+    font-weight: 300;
+    
   }
 }
 /* BREAKPOINT DESKTOP M*/
@@ -1125,6 +1204,15 @@ footer {
     color: red;
     font-size: 0.8rem;
   }
+   /* MODAL REMERCIEMENS */
+   .modal-merci-text{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 250px;
+    min-height: 580px;
+    font-weight: 300;
+    
+  }
 }
 /* BREAKPOINT DESKTOP L*/
 @media screen and (min-device-width: 2560px) and (max-device-width: 4000px) {
@@ -1216,6 +1304,15 @@ footer {
   .errormsg {
     color: red;
     font-size: 0.8rem;
+  }
+   /* MODAL REMERCIEMENS */
+   .modal-merci-text{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 250px;
+    min-height: 580px;
+    font-weight: 300;
+    
   }
 }
 @keyframes modalopen {
